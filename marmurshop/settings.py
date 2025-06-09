@@ -55,6 +55,10 @@ DATABASES = {
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
+CSRF_TRUSTED_ORIGINS = [
+    "https://delightful-moss-0919c950f.6.azurestaticapps.net",
+    "https://backend-marmurshop-eea9edh3arf5d2f7.canadacentral-01.azurewebsites.net",
+]
 
 AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
