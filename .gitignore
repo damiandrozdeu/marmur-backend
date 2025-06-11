@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pyc
+*.log
+*.pot
+*.mo
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django specific
+db.sqlite3
+media/
+staticfiles/  # to jest output collectstatic
+*.sqlite3
+
+# Pytest / Coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Docker
+*.pid
+Dockerfile
+.dockerignore
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# GitHub workflows secrets (jeśli lokalnie)
+*.pem
