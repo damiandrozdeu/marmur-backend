@@ -21,7 +21,7 @@ from django.urls import path, include
 from django.http import HttpResponse
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', lambda request: HttpResponse("Sklep marmurowy działa!")),
+    path('', lambda request: HttpResponse("Sklep marmurowy działa! Dupa")),
     path('api/', include('shop.urls')),
 
     # tu inne path, np. do API
